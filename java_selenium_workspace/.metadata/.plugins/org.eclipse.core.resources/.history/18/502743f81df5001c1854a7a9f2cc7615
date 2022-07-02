@@ -1,0 +1,40 @@
+package com.staragile.utilities;
+
+import org.testng.annotations.DataProvider;
+
+public class DataUtils {
+
+	@DataProvider
+	public String[][] validCredentialData() {
+		String[][] main = new String[2][3];
+
+		main[0][0] = "admin";
+		main[0][1] = "pass";
+		main[0][2] = "OpenEMR";
+
+		main[1][0] = "physician";
+		main[1][1] = "physician";
+		main[1][2] = "OpenEMR";
+
+		return main;
+	}
+
+	// create a dataprovider for invalid credential test - invalidCredentialData
+	// peter,peter123,Invalid username or password
+	// mark,mark123,Invalid username or password
+
+	@DataProvider
+	public String[][] invalidCredentialData() {
+		String[][] main = new String[2][3];
+
+		main[0][0] = "peter";
+		main[0][1] = "peter123";
+		main[0][2] = "Invalid username or password";
+
+		main[1][0] = "paul";
+		main[1][1] = "paul123";
+		main[1][2] = "Invalid username or password";
+
+		return main;
+	}
+}

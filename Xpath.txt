@@ -1,0 +1,27 @@
+Absolute xpath (not recommended)- /html/body/div[4]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[7]/span/span[3]/input
+-------------
+Relative xpath
+//tagname[@attribute='']
+//tagname[text()='']
+
+Contains
+//tagname[contains(@attribute,'')]
+//tagname[contains(text(),'')]
+
+Grouping of xpath - starts with 1
+(//div[@role='alert'])[3]
+
+
+SVG tag
+(//*[name()='svg'])[4]
+
+Example: validate in chrome - ctrl+f
+//input[@value='-1']
+
+//button[text()='Log In']
+
+//b[contains(text(),'phpMyAdm')]
+
+//a[@data-track='login']
+//a[text()='login / Signup']
+//a[text()='Membership']

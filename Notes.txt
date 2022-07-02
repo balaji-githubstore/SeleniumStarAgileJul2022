@@ -1,0 +1,129 @@
+Architecture
+Datatypes 
+Conditional statement
+Iterative statement
+Methods - static & non-static 
+Variable - static & non-static 
+Class & Object 
+
+
+inheritance
+method overriding - runtimepolymorphism
+abstraction
+	abstract class
+	interface
+
+1 bit - 0 or 1
+ 
+8 bits -- 0000 0000 to 1111 1111 
+
+1 byte - 8 bits 
+
+1 GB - 1024 MB 
+1 MB - 1024KB 
+1KB - 1024B
+1B - 8 bits
+
+
+
+int vs byte
+Calculation percentage of 1000 students 
+byte -->1000*8 = 8000 bits of memory 
+
+int --> 1000*32 = 32000 bits of memory 
+
+
+
+
+--------------------------------
+
+
+empid=101,empname=john,empsal=5000,companyname=staragile
+empid=102,empname=peter,empsal=8000,companyname=staragile
+empid=102,empname=paul,empsal=6000,companyname=staragile
+
+
+
+
+
+
+-----------------------------------------------------
+myName --> 
+(
+0->b
+1->a
+2->l
+3->a
+4->j
+5->i
+)
+
+colors --> L1
+(
+0-->
+1-->
+2-->
+)
+
+----
+ChromeDriver - class 
+	non static method 
+		void get(String url)
+		String getTitle()	
+		String getCurrentUrl()
+
+
+
+"D:\Software\chromedriver.exe"
+
+
+
+------------------------------------------------
+windows-->{"jhjkhj3jkjk3","kjjdf999"}
+
+1st tab session --> 0th index
+2nd tab session --> 1st index 
+
+
+-------------------------------
+
+1 test method - 3 set of test data(Test case) 
+john,john123
+peter,peter123
+mark,mark123
+
+{ {john,john123} , {peter,peter123} , {mark,mark123} }
+
+
+----------------------------------------
+
+admin,pass,OpenEMR
+physician,physician,OpenEMR
+
+
+-------------
+
+peter,peter123, Invalid username or password
+paul,paul123,Invalid username or password
+mark,mark12
+
+{    {peter,peter123, Invalid username or password} , {paul,paul123,Invalid username or password}   }
+ 
+
+-------------------------------------------------
+
+Excel Index		String[][]
+1 0			0 0
+1 1			0 1
+1 2			0 2
+
+2 0			1 0
+2 1			1 1
+2 2			1 2 
+
+
+
+
+
+
+

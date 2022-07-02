@@ -1,0 +1,48 @@
+[{contactname=peter, mobile=4, relationship=brother}, {contactname=mark, mobile=9999, relationship=brother}]
+
+
+0->{contactname=peter, mobile=4, relationship=brother}
+1->{contactname=mark, mobile=9999, relationship=brother}
+
+
+0--> | sat         | brother      |      78787887 | 875455454 |        545454 |
+1--> row 2
+
+
+
+-------------------------------
+
+
+
+
+
+
+
+ sat,brother,78787887,875455454,545454
+ peter, father, 78788, 444, 44
+
+
+----
+0-> | sat         | brother      |      78787887 | 875455454 |        545454 |
+
+1->| sat2        | brother2     |             5 |         6 |             6 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

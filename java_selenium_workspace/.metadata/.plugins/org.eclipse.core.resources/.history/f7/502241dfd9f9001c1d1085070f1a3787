@@ -1,0 +1,7 @@
+package com.staragile.runner;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+
+public class RunnerTest extends AbstractTestNGCucumberTests {
+
+}

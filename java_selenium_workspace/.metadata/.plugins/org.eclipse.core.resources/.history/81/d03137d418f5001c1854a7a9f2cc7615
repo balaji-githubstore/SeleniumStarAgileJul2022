@@ -1,0 +1,21 @@
+package com.staragile.logics;
+
+public class Demo1For {
+	
+	public static void main(String[] args) {
+		
+		//1 to 10
+		//start point
+		//end point 
+		//increment 
+		//(i++)  i=i+1
+		
+		for(int i=1;i<=100;i++)
+		{
+			System.out.println(i);
+		}
+		
+		
+	}
+
+}

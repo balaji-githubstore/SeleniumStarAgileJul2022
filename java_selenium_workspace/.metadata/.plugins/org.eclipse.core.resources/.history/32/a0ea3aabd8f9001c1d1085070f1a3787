@@ -1,0 +1,13 @@
+Feature: Login
+  In order to maintain health records 
+  as an admin
+  I want to access the openemr portal
+
+  Scenario: Valid Credential
+    Given I have browser with openemr application
+    When I enter username as 'admin'
+    And I enter password as 'pass'
+    And I click on login
+    Then I should get access to portal with title as 'OpenEMR'
+
+    

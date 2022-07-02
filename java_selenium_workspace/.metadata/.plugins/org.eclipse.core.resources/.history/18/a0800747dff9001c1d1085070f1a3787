@@ -1,0 +1,25 @@
+package com.staragile.steps;
+
+import java.time.Duration;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.staragile.hooks.AutomationHooks;
+
+import io.cucumber.java.en.Given;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Demo {
+	@Given("I have browser with openemr application")
+	public void i_have_browser_with_openemr_application() 
+	{
+		WebDriverManager.chromedriver().setup();
+		
+		AutomationHooks.driver = new ChromeDriver();
+		AutomationHooks.driver.manage().window().maximize();
+		AutomationHooks.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+
+		AutomationHooks.driver.get("https://demo.openemr.io/b/openemr");
+	}
+
+}

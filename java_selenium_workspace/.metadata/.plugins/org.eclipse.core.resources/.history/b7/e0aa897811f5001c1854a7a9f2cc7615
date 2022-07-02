@@ -1,0 +1,13 @@
+package com.staragile.test;
+
+import java.io.FileInputStream;
+
+public class Demo1Excel {
+
+	public static void main(String[] args) {
+		
+		FileInputStream file=new FileInputStream("test-data/OpenEMRData.xlsx");
+
+	}
+
+}

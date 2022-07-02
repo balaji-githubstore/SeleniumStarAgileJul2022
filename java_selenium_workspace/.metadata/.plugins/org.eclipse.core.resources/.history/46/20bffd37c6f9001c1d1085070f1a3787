@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OpenEMR Suite" parallel="tests">
+
+	<test thread-count="5" name="Login UI Test 1">
+		<classes>
+			<class name="com.staragile.test.LoginUITest" />
+			<class name="com.staragile.test.LoginTest" />
+			<class name="com.staragile.test.PatientTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

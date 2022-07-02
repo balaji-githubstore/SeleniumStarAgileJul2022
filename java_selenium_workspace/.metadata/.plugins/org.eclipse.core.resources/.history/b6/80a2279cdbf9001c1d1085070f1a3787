@@ -1,0 +1,30 @@
+package com.staragile.steps;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Steps1 {
+	
+	@Given("I have browser with openemr application")
+	public void i_have_browser_with_openemr_application() {
+	    
+	}
+	@When("I enter username as {string}")
+	public void i_enter_username_as(String string) {
+	  
+	}
+	@When("I enter password as {string}")
+	public void i_enter_password_as(String string) {
+	  
+	}
+	@When("I click on login")
+	public void i_click_on_login() {
+	   
+	}
+	@Then("I should get access to portal with title as {string}")
+	public void i_should_get_access_to_portal_with_title_as(String string) {
+	   
+	}
+
+}

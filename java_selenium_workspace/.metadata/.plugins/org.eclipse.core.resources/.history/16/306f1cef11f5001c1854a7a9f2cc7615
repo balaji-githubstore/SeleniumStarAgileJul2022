@@ -1,0 +1,14 @@
+package com.staragile.test;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Demo1Excel {
+
+	public static void main(String[] args) throws FileNotFoundException  {
+		
+		FileInputStream file=new FileInputStream("test_data/OpenEMRData.xlsx");
+
+	}
+
+}
