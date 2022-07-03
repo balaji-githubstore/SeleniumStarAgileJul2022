@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-02T11:19:14 IST" name="OpenEMR Suite" finished-at="2022-07-02T11:19:35 IST" duration-ms="21043">
+    <groups>
+    </groups>
+    <test started-at="2022-07-02T11:19:14 IST" name="Login UI Test-chrome" finished-at="2022-07-02T11:19:35 IST" duration-ms="21043">
+      <class name="com.staragile.test.LoginUITest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.staragile.test.LoginUITest@82de64a]" started-at="2022-07-02T11:19:14 IST" name="setup" finished-at="2022-07-02T11:19:25 IST" duration-ms="11101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateAppDescription()[pri:0, instance:com.staragile.test.LoginUITest@82de64a]" started-at="2022-07-02T11:19:25 IST" name="validateAppDescription" finished-at="2022-07-02T11:19:25 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppDescription -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.staragile.test.LoginUITest@82de64a]" started-at="2022-07-02T11:19:25 IST" name="teardown" finished-at="2022-07-02T11:19:26 IST" duration-ms="1136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.staragile.test.LoginUITest@82de64a]" started-at="2022-07-02T11:19:26 IST" name="setup" finished-at="2022-07-02T11:19:34 IST" duration-ms="7768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateTitleTest()[pri:0, instance:com.staragile.test.LoginUITest@82de64a]" started-at="2022-07-02T11:19:34 IST" name="validateTitleTest" finished-at="2022-07-02T11:19:34 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.staragile.test.LoginUITest@82de64a]" started-at="2022-07-02T11:19:34 IST" name="teardown" finished-at="2022-07-02T11:19:35 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.staragile.test.LoginUITest -->
+    </test> <!-- Login UI Test-chrome -->
+  </suite> <!-- OpenEMR Suite -->
+</testng-results>

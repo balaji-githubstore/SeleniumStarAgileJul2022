@@ -6,6 +6,8 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Demo1 {
 	
@@ -18,7 +20,11 @@ public class Demo1 {
 		
 		driver.get("https://netbanking.hdfcbank.com/netbanking/IpinResetUsingOTP.htm");
 		
-		driver.findElement(By.xpath("//img[@alt='Go']")).click();
+		//driver.findElement(By.xpath("//img[@alt='Go']")).click();
+		
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(30));
+		
+		wait.until(ExpectedConditions.alertIsPresent());
 		
 		
 		String alertText=driver.switchTo().alert().getText();

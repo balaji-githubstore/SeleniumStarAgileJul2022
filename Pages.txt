@@ -1,0 +1,59 @@
+LoginPage
+	enterUsername(string username)
+	enterPassword
+	clickOnLogin
+	clickOnAckLicCert
+	String getInvalidErrorMessage()
+
+
+MainPage - handle all menu
+	clickOnCalendar
+	clickOnPatient
+	clickOnNewSearch
+	String getMainPageTitle()
+
+SearchorAddPatientPage
+	enterFirstname
+	enterDOB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------
+inheritance
+hashmap
+explicit wait
+css 
+javascript 
+
+
+
+page object model - non-static 
+
+
+
+
+
+
+

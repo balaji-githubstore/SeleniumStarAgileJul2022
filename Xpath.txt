@@ -15,6 +15,35 @@ Grouping of xpath - starts with 1
 SVG tag
 (//*[name()='svg'])[4]
 
+And - or 
+
+//input[@id='txtUsername' and @type='text']
+
+//input[@id='txtUsername' or @type='text']
+
+
+parent-child 
+parent - //img[@alt='Go']/..
+//span[text()='Adobe Experience Cloud']/../..
+
+child -
+//a[@id='hello']/img
+//a[@id='hello']/img[@alt='Go']
+
+
+ancestor-descenadant
+//tagname[@attribute='']/ancestor::tagname
+//span[text()='Adobe Experience Cloud']/ancestor::a
+
+descendant
+//form[@id='hotels-search']/descendant::input[@id='checkin']
+//form[@id='hotels-search']//input[@id='checkin']
+
+following-preceding
+
+
+--------------------------------
+
 Example: validate in chrome - ctrl+f
 //input[@value='-1']
 
@@ -25,3 +54,26 @@ Example: validate in chrome - ctrl+f
 //a[@data-track='login']
 //a[text()='login / Signup']
 //a[text()='Membership']
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------
+CSS Selector 
+
+#id
+.classname
+tagname[attribute='value']
+[attribute='value']
+
+Example:
+#checkin
+[id='checkin']
+input[id='checkin']
